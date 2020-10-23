@@ -1,0 +1,79 @@
+.navbar {
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+ .navbar ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navbar ul li {
+  color: white;
+  font-size: 2em;
+  padding-right:  20px;
+  display: inline;
+}
+
+.main-section {
+  height: 100vh;
+  background-color: skyblue;
+  
+}
+
+.navbar > .active {
+  border-bottom: 1px solid black;
+}
+
+.about-section {
+  height: 100vh;
+  background-color: mediumpurple;
+
+}
+
+.work-section {
+  height: 100vh;
+  background-color: orange;
+}
+
+
+.contact-section {
+  height: 100vh;
+  background-color: red;
+}
+
+.container {
+ 
+  width:800px; 
+  height: 200px; 
+  position: absolute;
+  top: 50%; margin-top:-100px;
+  left: 50%; margin-left:-400px;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black; text-align:center; vertical-align:middle
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+p{
+  text-align: center;
+ 
+
+  
+
+}
+  
+ 
+  
+
+
+
+
